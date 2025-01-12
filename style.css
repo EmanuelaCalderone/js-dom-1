@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+}
+
+/*container principale*/
+#container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/*immagine che va mostrata*/
+.show{
+    display:block;
+}
+
+/*immagine che non va mostrata*/
+.hide{
+    display:none;
+}
+
+/*bottone*/
+.pulsante {
+    color:white;
+    border:none;
+    border-radius:20%;
+    padding:10px;
+    cursor:pointer;
+}
+
+/*colore stato acceso*/
+.green{
+    background-color:green;
+}
+
+/*colore stato spento*/
+.red{
+    background-color:red;
+}
+
